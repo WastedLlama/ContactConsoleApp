@@ -8,7 +8,7 @@ namespace ContactConsoleApp
 {
     class PhoneBook
     {
-        private List<Contact> _contacts { get; set; }
+        private List<Contact> _contacts { get; set; } = new List<Contact>();
         private void DisplayContactDetails(Contact contact)
         {
             Console.WriteLine($"Contact: {contact.Name}, {contact.Number}");
