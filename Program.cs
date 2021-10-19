@@ -26,7 +26,6 @@ namespace ContactConsoleApp
                     case "1":
                         Console.WriteLine("Contact Name:");
                         var name = Console.ReadLine();
-                        Console.Clear();
                         Console.WriteLine("Contact Number");
                         var number = Console.ReadLine();
 
