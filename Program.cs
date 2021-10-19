@@ -24,7 +24,6 @@ namespace ContactConsoleApp
                 switch (userInput)
                 {
                     case "1":
-                        Console.Clear();
                         Console.WriteLine("Contact Name:");
                         var name = Console.ReadLine();
                         Console.WriteLine("Contact Number");
