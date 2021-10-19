@@ -24,9 +24,9 @@ namespace ContactConsoleApp
                 switch (userInput)
                 {
                     case "1":
-                        Console.Clear();
                         Console.WriteLine("Contact Name:");
                         var name = Console.ReadLine();
+                        Console.Clear();
                         Console.WriteLine("Contact Number");
                         var number = Console.ReadLine();
 
@@ -35,19 +35,16 @@ namespace ContactConsoleApp
                         break;
 
                     case "2":
-                        Console.Clear();
                         Console.WriteLine("Console number to search:");
                         var searchNumber = Console.ReadLine();
                         phoneBook.DisplayContact(searchNumber);
                         break;
 
                     case "3":
-                        Console.Clear();
                         phoneBook.DisplayAllContact();
                         break;
 
                     case "4":
-                        Console.Clear();
                         Console.WriteLine("Name search phrase");
                         var searchPhrase = Console.ReadLine();
 
@@ -57,7 +54,6 @@ namespace ContactConsoleApp
                     case "x":
                         return;
                     default:
-                        Console.Clear();
                         Console.WriteLine("Select valid operation");
                         break;
                 }
